@@ -1,0 +1,254 @@
+html, body {
+ 	margin: 0;
+ 	padding: 0;
+}
+
+header {
+	width: 100%;
+	height: 80px;
+	display: block;
+	background-color: #032E5A;
+	font-weight: 800;
+}
+
+.menu {
+	width: 90%;
+	line-height: 80px;
+	margin: auto;
+}
+
+.menu-left {
+	float: left;
+}
+
+.logo {
+	margin: 0;
+	padding: 0;
+	color: #FFFFFF;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.menu-right {
+	float: right;
+}
+
+.menu-pseudo {
+	color: #FFFFFF;
+	margin-left: 20px;
+}
+
+.menu-link {
+	text-decoration: none;
+	color: #FFFFFF;
+	margin-left: 20px;
+	padding: 0;
+	transition: all 0.3s ease-in-out;
+}
+
+.menu-link:hover {
+	padding-bottom: 3px;
+	border-bottom: 2px solid #FFFFFF;
+}
+
+h2 {
+	color: #FFFFFF;
+}
+
+h4 {
+	color: red;
+}
+
+p {
+	color: #FFFFFF;
+}
+
+.login-form {
+	background-color: #032E5A;
+	border-radius: 1em;
+	box-shadow: 0 0 1em;
+	margin-top: 5em;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1em;
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.login-form input {
+	margin-bottom: 1em;
+}
+
+.register-form {
+	background-color: #032E5A;
+	border-radius: 1em;
+	box-shadow: 0 0 1em;
+	margin-top: 5em;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1em;
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.register-form input {
+	margin-bottom: 1em;
+}
+
+.deposit-form {
+	background-color: #032E5A;
+	border-radius: 1em;
+	box-shadow: 0 0 1em;
+	margin-top: 5em;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1em;
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.deposit-form * {
+	margin-bottom: 1em;
+}
+
+.user-div {
+	background-color: #032E5A;
+	border-radius: 1em;
+	box-shadow: 0 0 1em;
+	padding: 1em;
+	margin-top: 5em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	display: flex;
+}
+
+.user-div-left {
+	width: 30%;
+}
+
+.user-div-right {
+	width: 70%;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.user-div-right h4 {
+	color: #FFFFFF;
+}
+
+.user-annonces {
+	margin-top: 4em;
+}
+
+.user-annonce {
+	background-color: #032E5A;
+	box-shadow: 0 0 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1em;
+	width: 80%;
+	display: flex;
+}
+
+a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.user-annonce-middle {
+	margin-left: 2em;
+	display: flex;
+	flex-direction: column;
+}
+
+.user-annonce-middle h2 {
+	margin-bottom: 0;
+}
+
+.user-annonce-middle h3 {
+	color: #FF6600;
+	margin-top: 0;
+}
+
+.user-annonce-middle h4 {
+	color: #FFFFFF;
+}
+
+.user-annonce-right {
+	margin-right: 1em;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+
+.images-annonce {
+	margin-top: 4em;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	width: 700px;
+}
+
+.image-produit {
+	box-shadow: 0 0 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.info-annonce {
+	background-color: #032E5A;
+	box-shadow: 0 0 0.5em;
+	margin-top: 2em;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 1em;
+	padding-right: 1em;
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+}
+
+.info-annonce h2 {
+	margin-bottom: 0;
+}
+
+.info-annonce h3 {
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #FF6600;
+}
+
+.info-annonce h4 {
+	overflow-wrap: break-word;
+	display: block;
+	color: #FFFFFF;
+}
+
+.research-form {
+	background-color: #032E5A;
+	border-radius: 1em;
+	box-shadow: 0 0 1em;
+	margin-top: 5em;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1em;
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+}
+
+.research-form input {
+	margin-top: 1em;
+}
+
+.research-info {
+	text-align: center;
+}
